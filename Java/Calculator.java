@@ -12,7 +12,7 @@ public class Calculator {
     jf.setLocation(300, 130);
 
     JLabel displayLabel=new JLabel();
-   // displayLabel.setBounds(,,,);
+    displayLabel.setBounds(100,200,10,30);
 
     jf.setVisible(true);
     jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
