@@ -3,7 +3,7 @@ class Solution {
         boolean answer = false;
 			for(char alpha = 'a' ; alpha<='z' ; alpha++) {
 		        	if(sentence.indexOf(alpha) == -1) {
-		        		answer= false;
+		        		answer= false;//not pangram
 		        		break;
 		        	}else {
 		        		answer= true;
