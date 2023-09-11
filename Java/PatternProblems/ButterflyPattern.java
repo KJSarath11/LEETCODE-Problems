@@ -1,6 +1,6 @@
 public class ButterflyPattern {
     public static void main(String[] args) {
-        int n = 5;
+        int n = 3;
         // upper part
         for (int i = 1; i <= n; i++) {
             // part 1
