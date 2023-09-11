@@ -11,4 +11,19 @@ class Solution {
 		        }
 		        return answer;
     }
+    public static void main(String[] args) {
+        // Create an instance of the Solution class
+        Solution solution = new Solution();
+
+        // Test the checkIfPangram method with a sample sentence
+        String sentence = "the quick brown fox jumps over the lazy dog";
+        boolean isPangram = solution.checkIfPangram(sentence);
+
+        // Print the result
+        if (isPangram) {
+            System.out.println("The sentence is a pangram.");
+        } else {
+            System.out.println("The sentence is not a pangram.");
+        }
+    }
 }
